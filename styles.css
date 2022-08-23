@@ -30,7 +30,7 @@ html {
 
 body {
   font-family: "Rubik", sans-serif;
-  background-image: url("/assets/img/background.png");
+  background-image: url("assets/img/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: rgb(50, 50, 50);
