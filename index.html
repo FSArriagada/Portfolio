@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facundo Arriagada / Front-End Developer</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/LOGO.png">
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/78fb5a50f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">FA</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link" data-ref="home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">About</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="container-image">
+        <span class="title-primary titulo">Hi!</span>
+        <h1 class="home__title titulo">I'm Facundo Arriagada</h1>
+        <span class="title-secondary titulo">Front-End Developer</span>
+    </section>
+    <section id="about" class="grid-about">
+      <div class="about container_items">
+        <h1>About me</h1>
+        <h2>I'm Facundo Arriagada, Web Developer</h2>
+        <p>
+          I specialize in JavaScript, and I desire to have experience working
+          with React.
+        </p>
+        <p>
+          Creative, enthusiastic and eager to keep learning new technologies. I
+          enjoy working in a team because is the best way to continue growing
+          professionally learning from my colleagues and enhancing my skills.
+        </p>
+      </div>
+      <div class="skills container_items">
+        <h2 class="skills-title">My skills</h2>
+        <div class="skills_anim">
+          <i
+            class="fa-brands fa-html5 html skills_items"
+            style="color: darkorange"
+          ></i>
+        </div>
+        <div class="skills_anim">
+          <i
+            class="fa-brands fa-css3-alt css skills_items"
+            style="color: cornflowerblue"
+          ></i>
+        </div>
+        <div class="skills_anim">
+          <i
+            class="fa-brands fa-bootstrap bootstrap skills_items"
+            style="color: blueviolet"
+          ></i>
+        </div>
+        <div class="skills_anim">
+          <i class="fa-brands fa-js js skills_items" style="color: gold"></i>
+        </div>
+        <div class="skills_anim">
+          <i
+            class="fa-brands fa-react react skills_items"
+            style="color: #61dbfb"
+          ></i>
+        </div>
+        <div class="skills_anim">
+          <img
+            src="/assets/svg/firebase.svg"
+            class="firebase skills_items"
+            alt="firebase"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="projects">
+      <h2 style="color: #FFF">My projects</h2>
+      <div class="cards">
+        <div class="card card1">
+            <div class="diagonal">
+                <img src="assets/img/Example.gif" alt="React PhoStore">
+            </div>
+            <div class="details">
+                <h3>React PhoStore</h3>
+                <p>This project is an e-commerce of cell phones of different brands. Made with React.</p>
+                <a href="https://github.com/FSArriagada/PhoStore" target="_blank"><button>Code</button></a>
+            </div>
+        </div>
+        <div class="card card2">
+            <div class="diagonal">
+                <img src="assets/img/Phostore.png" alt="JS PhoStore">
+            </div>
+            <div class="details">
+                <h3>JS PhoStore</h3>
+                <p>This project is also about an e-commerce of cell phones of different brands. But made with Javascript Vanilla.</p>
+                <a href="https://github.com/FSArriagada/Proyecto-Final-JS" target="_blank"><button>Code</button></a>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="diagonal">
+                <img src="assets/img/masajesdp.png" alt="MasajesDP">
+            </div>
+            <div class="details">
+                <h3>Masajes DP</h3>
+                <p>Website developed for an independent massage therapist, which you can send inquiries to the office.</p>
+                <a href="https://github.com/ulisespazz/Masajes.dp" target="_blank"><button>Code</button></a>
+            </div>
+        </div>
+      </div>
+    
+    </section>
+    <footer id="contact" class="footer">
+      <div class="container">
+        <ul class="address">
+          <span>Contact me</span>
+          <div class="contact-items">
+            <li>
+              <a href="mailto:facu._99@hotmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/FSArriagada" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/facundo-arriagada/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </footer>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
